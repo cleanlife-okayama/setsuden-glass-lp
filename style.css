@@ -49,6 +49,12 @@ h2 { margin:0 0 24px; font-size:clamp(1.6rem,3.2vw,2rem); }
 .safe-message{margin-top:12px; line-height:1.75;}
 .section-contact a { color:#e2f3ff; }
 
+.contact-actions { margin:24px 0 16px; align-items:stretch; }
+.contact-actions .btn { display:inline-flex; flex-direction:column; justify-content:center; min-height:72px; }
+.contact-phone-number { font-size:1.25rem; letter-spacing:.03em; }
+.section-contact .contact-guide { font-size:.95rem; }
+.contact-actions .btn:focus-visible { outline:3px solid var(--white); outline-offset:4px; }
+
 
 .section-contact .btn-outline {
   background: #f5fbff;
